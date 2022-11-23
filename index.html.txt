@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style">
+    </head>
+    <body>
+        <div class="banner">
+            
+        </div>
+    </body>
+    </html>
