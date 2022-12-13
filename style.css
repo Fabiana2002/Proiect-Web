@@ -5,10 +5,13 @@ body{
     display: flex;
     align-items: center;
     padding: 20px;
+    background: rgb(230, 103, 141);
+    
 }
 nav{
     flex: 1;
     text-align: right;
+    
 }
 
 nav ul{
@@ -19,13 +22,17 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 20px;
+    background: rgb(238, 11, 79);
 }
 
 a{
     text-decoration: none;
-    color:#555;
+    color:rgb(255, 255, 255);
 
 
+}
+.logo{
+    background: rgb(238, 11, 79);
 }
 p{
     color: #555;
@@ -243,12 +250,12 @@ small{
     align-items: center;
     background: var(--black);
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .contact .row .harta{
-    flex:1 1 45rem;
-    width: 150%;
+    flex:1 1 95rem;
+    width: 250%;
     object-fit: cover;
 
 }
